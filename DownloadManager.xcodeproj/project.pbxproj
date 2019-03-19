@@ -8,14 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		D57A0B6E2230135D0017A210 /* DownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D57A0B6C2230135D0017A210 /* DownloadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D57A0B75223014650017A210 /* DownloadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57A0B74223014650017A210 /* DownloadModel.swift */; };
+		D57A0B75223014650017A210 /* ASDownloadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57A0B74223014650017A210 /* ASDownloadModel.swift */; };
+		D57A0B772236B6460017A210 /* ASDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57A0B762236B6460017A210 /* ASDownloadManager.swift */; };
+		D57A0B792236E6130017A210 /* ASUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57A0B782236E6130017A210 /* ASUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D57A0B692230135D0017A210 /* DownloadManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DownloadManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57A0B6C2230135D0017A210 /* DownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
 		D57A0B6D2230135D0017A210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D57A0B74223014650017A210 /* DownloadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadModel.swift; sourceTree = "<group>"; };
+		D57A0B74223014650017A210 /* ASDownloadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASDownloadModel.swift; sourceTree = "<group>"; };
+		D57A0B762236B6460017A210 /* ASDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASDownloadManager.swift; sourceTree = "<group>"; };
+		D57A0B782236E6130017A210 /* ASUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +54,9 @@
 			children = (
 				D57A0B6C2230135D0017A210 /* DownloadManager.h */,
 				D57A0B6D2230135D0017A210 /* Info.plist */,
-				D57A0B74223014650017A210 /* DownloadModel.swift */,
+				D57A0B74223014650017A210 /* ASDownloadModel.swift */,
+				D57A0B782236E6130017A210 /* ASUtility.swift */,
+				D57A0B762236B6460017A210 /* ASDownloadManager.swift */,
 			);
 			path = DownloadManager;
 			sourceTree = "<group>";
@@ -133,7 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D57A0B75223014650017A210 /* DownloadModel.swift in Sources */,
+				D57A0B75223014650017A210 /* ASDownloadModel.swift in Sources */,
+				D57A0B772236B6460017A210 /* ASDownloadManager.swift in Sources */,
+				D57A0B792236E6130017A210 /* ASUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
